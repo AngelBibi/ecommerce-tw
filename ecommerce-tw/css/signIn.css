@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(255, 195, 209, 0.952);
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(230,86,122);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#fname, #lname {
+    width: auto;
+}
+
+
+#login {
+    background-color: white;
+    border: 2px solid grey;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+#login a{
+    width: 8%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input:focus {
+    border: 3px solid rgb(230,86,122);
+}
+
+input[type="submit"]:hover {
+    border: 3px solid rgb(230,86,122);
+    background-color: rgb(230,86,122,0.7);
+}
+
+input[type="submit"]:active {
+    transform: scale(0.95);
+}
